@@ -1,10 +1,13 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import bio from "../pages/bio";
+import styles from './Header.module.scss';
 
 export default function Header() {
+
   return (
-    <header>
+    <header className={styles.header}>
+      <div className={styles.title}>Goeun Park</div>
       <ul>
         <li>
           <Link href="/">
