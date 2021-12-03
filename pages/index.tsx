@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
       {Header()}
 
-      <main>
+      <main className="page-content">
         <p>🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍</p>
         <p>🏠 goeun.co is under construction</p>
         <p>🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤</p>

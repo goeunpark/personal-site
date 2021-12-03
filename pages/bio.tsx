@@ -4,12 +4,11 @@ import Head from 'next/head';
 
 const Bio: NextPage = () => {
   return (
-    
     <div>
       {Header()}
-     this is bio page
+      <div className="page-content">this is bio page</div>
     </div>
-  )
+  );
 }
 
 export default Bio;

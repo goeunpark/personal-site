@@ -6,9 +6,9 @@ const Projects: NextPage = () => {
   return (
     <div>
       {Header()}
-     this is projects page
+      <div className="page-content">this is proj page</div>
     </div>
-  )
+  );
 }
 
 export default Projects;
