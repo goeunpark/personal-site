@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
       <main className="page-content">
         <p>🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍</p>
-        <p>🏠 goeun.co is under construction</p>
+        <p>🏠 goeun.co is under construction!</p>
         <p>🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤</p>
       </main>
     </div>
