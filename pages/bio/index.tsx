@@ -1,6 +1,6 @@
-import type { NextPage } from 'next';
-import Header from "../components/Header";
-import Head from 'next/head';
+import type { NextPage } from "next";
+import Header from "../../components/Header";
+import Head from "next/head";
 
 const Bio: NextPage = () => {
   return (
@@ -9,6 +9,6 @@ const Bio: NextPage = () => {
       <div className="page-content">this is bio page</div>
     </div>
   );
-}
+};
 
 export default Bio;
