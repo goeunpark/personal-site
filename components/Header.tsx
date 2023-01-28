@@ -7,25 +7,17 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.title}>
-        <Link href="/">
-          <a>Goeun Park</a>
-        </Link>
+        <Link href="/">Goeun Park</Link>
       </div>
       <ul>
         <li>
-          <Link href="/bio">
-            <a>bio</a>
-          </Link>
+          <Link href="/bio">bio</Link>
         </li>
         <li>
-          <Link href="/log">
-            <a>log</a>
-          </Link>
+          <Link href="/log">log</Link>
         </li>
         <li>
-          <Link href="/projects">
-            <a>projects</a>
-          </Link>
+          <Link href="/projects">projects</Link>
         </li>
       </ul>
     </header>

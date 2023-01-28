@@ -41,20 +41,16 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
+              <Image
+                priority
+                src="/images/profile.jpg"
+                height={108}
+                width={108}
+                alt={name}
+              />
             </Link>
             <h2>
-              <Link href="/">
-                <a>{name}</a>
-              </Link>
+              <Link href="/">{name}</Link>
             </h2>
           </>
         )}
@@ -63,9 +59,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+          <Link href="/">← Back to home</Link>
         </div>
       )}
     </div>
