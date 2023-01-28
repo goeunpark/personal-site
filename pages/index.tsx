@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
+import { getAllPosts } from "../lib/api";
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,15 @@ const Home: NextPage = () => {
       </main>
     </div>
   );
+};
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts(["title", "date", "slug", "author"]);
+
+  console.log("inside index.txt getStaticProps");
+  return {
+    props: { allPosts },
+  };
 };
 
 export default Home;
