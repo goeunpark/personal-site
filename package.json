@@ -1,8 +1,6 @@
 {
   "name": "goeun.co",
   "private": true,
-  "version": 2,
-  "builds": [{ "src": "package.json", "use": "@vercel/next" }],
   "scripts": {
     "now-build": "next build",
     "dev": "next dev",
