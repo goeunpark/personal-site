@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import Head from "next/head";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
+import Layout from "../../components/Layout";
 
 type Params = {
   params: {
@@ -12,14 +12,13 @@ type Params = {
 
 export default function Post(props: any) {
   const router = useRouter();
-  console.log("inside slug txt", props);
   if (!router.isFallback && !props.post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <div>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: props.post.content }} />
-    </div>
+    </Layout>
   );
 }
 
