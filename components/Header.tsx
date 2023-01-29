@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import bio from "../pages/bio";
+// import about from "../pages/about";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -11,13 +11,10 @@ export default function Header() {
       </div>
       <ul>
         <li>
-          <Link href="/bio">bio</Link>
+          <Link href="/about">about</Link>
         </li>
         <li>
-          <Link href="/log">log</Link>
-        </li>
-        <li>
-          <Link href="/projects">projects</Link>
+          <Link href="/blog">blog</Link>
         </li>
       </ul>
     </header>

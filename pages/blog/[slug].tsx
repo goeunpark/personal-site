@@ -12,7 +12,7 @@ type Params = {
 
 export default function Post(props: any) {
   const router = useRouter();
-  console.log("inside slug txt", props.post.content);
+  console.log("inside slug txt", props);
   if (!router.isFallback && !props.post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
