@@ -4,6 +4,12 @@
   flex-direction: row;
   justify-content: space-between;
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+
   .title {
     display: flex;
     align-self: center;
