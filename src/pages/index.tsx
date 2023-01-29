@@ -32,7 +32,6 @@ const Home: NextPage = () => {
 export const getStaticProps = async () => {
   const allPosts = getAllPosts(["title", "date", "slug", "author"]);
 
-  console.log("inside index.txt getStaticProps");
   return {
     props: { allPosts },
   };
