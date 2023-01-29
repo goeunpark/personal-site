@@ -1,12 +1,44 @@
 import type { NextPage } from "next";
+import { getAllPosts } from "../../lib/api";
 import Layout from "../../components/Layout";
+import PostIndex from "../../components/PostIndex";
 
-const Blog: NextPage = () => {
+type Post = {
+  slug: string;
+  title: string;
+  date: string;
+  author: string;
+  excerpt: string;
+  content: string;
+};
+
+type Props = {
+  allPosts: Post[];
+};
+const Blog = ({ allPosts }: Props) => {
+  const posts = allPosts;
+
   return (
     <Layout>
       <div className="page-content">this is a blog page</div>
+      <PostIndex posts={posts} />
     </Layout>
   );
 };
 
 export default Blog;
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+};
