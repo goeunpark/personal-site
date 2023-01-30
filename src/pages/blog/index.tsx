@@ -20,8 +20,9 @@ const Blog = ({ allPosts }: Props) => {
 
   return (
     <Layout>
-      <div className="page-content">this is a blog page</div>
-      <PostIndex posts={posts} />
+      <div className="page-content">
+        <PostIndex posts={posts} />
+      </div>
     </Layout>
   );
 };

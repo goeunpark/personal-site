@@ -15,15 +15,13 @@ const Home: NextPage = () => {
             content="website of goeun park, writer & developer"
           />
           <link rel="icon" href="/favicon.ico" />
-          <style>
-            @import
-            url(`https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap`);
-          </style>
         </Head>
 
-        <p>🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍</p>
-        <p>🏠 goeun.co is under construction!</p>
-        <p>🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤</p>
+        <div className="home-page">
+          <p>🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍</p>
+          <p>🏠 goeun.co is under construction!</p>
+          <p>🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤</p>
+        </div>
       </Layout>
     </>
   );
