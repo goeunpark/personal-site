@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const persimmonAltTag =
     "This is a photo of persimmon trees next to my grandmother's backyard.";
 
-  const rocksAltTag = "This is a photo of rocks on the way to Mount Pilchuck. ";
+  const rocksAltTag = "This is a photo of rocks on the way to Mount Pilchuck.";
   return (
     <>
       <Layout>
