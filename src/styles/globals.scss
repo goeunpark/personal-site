@@ -11,7 +11,15 @@ body {
 
 .home-page {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.landing-pic {
+  margin: 50px;
+  border: 1px black solid;
+}
+
 .page-content a {
   color: inherit;
   text-decoration: underline;

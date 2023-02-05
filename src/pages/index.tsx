@@ -1,10 +1,14 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import Head from "next/head";
 import Layout from "../components/Layout";
-import Header from "../components/Header";
 import { getAllPosts } from "../lib/api";
 
 const Home: NextPage = () => {
+  const persimmonAltTag =
+    "This is a photo of persimmon trees next to my grandmother's backyard.";
+
+  const rocksAltTag = "This is a photo of rocks on the way to Mount Pilchuck. ";
   return (
     <>
       <Layout>
@@ -18,9 +22,20 @@ const Home: NextPage = () => {
         </Head>
 
         <div className="home-page">
-          <p>🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍</p>
-          <p>🏠 goeun.co is under construction!</p>
-          <p>🖤 🤍 🖤 🤍 🖤 🤍 🖤 🤍 🖤</p>
+          <Image
+            className="landing-pic"
+            src="/persimmons.jpeg"
+            alt={persimmonAltTag}
+            width="379"
+            height="506"
+          />
+          <Image
+            className="landing-pic"
+            src="/rocks.jpeg"
+            alt={rocksAltTag}
+            width="379"
+            height="506"
+          />
         </div>
       </Layout>
     </>
