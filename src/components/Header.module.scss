@@ -1,4 +1,6 @@
 .header {
+  font-family: 'Futura', 'Avenir', sans-serif;
+  font-size: 1.2rem;
   border-bottom: black solid 1px;
   display: flex;
   flex-direction: row;
@@ -9,6 +11,9 @@
     text-decoration: none;
   }
 
+  a:hover {
+    color: #ce9665;
+  }
 
   .title {
     display: flex;
@@ -26,4 +31,8 @@
       padding-right: 20px;
     }
   }
+}
+
+.page {
+  border-bottom: black solid 4px;
 }

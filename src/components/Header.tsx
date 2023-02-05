@@ -1,9 +1,11 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-// import about from "../pages/about";
 import styles from "./Header.module.scss";
 
 export default function Header() {
+  const router = useRouter();
+  const page = router.pathname.substring(1);
+
   return (
     <header className={styles.header}>
       <div className={styles.title}>
@@ -11,10 +13,20 @@ export default function Header() {
       </div>
       <ul>
         <li>
-          <Link href="/about">about</Link>
+          <Link
+            href="/about"
+            className={page == "about" ? styles.page : styles.a}
+          >
+            about
+          </Link>
         </li>
         <li>
-          <Link href="/blog">blog</Link>
+          <Link
+            href="/blog"
+            className={page.includes("blog") ? styles.page : styles.a}
+          >
+            blog
+          </Link>
         </li>
       </ul>
     </header>
