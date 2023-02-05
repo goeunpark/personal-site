@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <Head>
-          <title>goeun park 💌</title>
+          <title>Goeun Park</title>
           <meta
             name="description"
             content="website of goeun park, writer & developer"
