@@ -22,20 +22,24 @@ const Home: NextPage = () => {
         </Head>
 
         <div className="home-page">
-          <Image
-            className="landing-pic"
-            src="/persimmons.jpeg"
-            alt={persimmonAltTag}
-            width="379"
-            height="506"
-          />
-          <Image
-            className="landing-pic"
-            src="/rocks.jpeg"
-            alt={rocksAltTag}
-            width="379"
-            height="506"
-          />
+          <div className="home-left">
+            <Image
+              className="landing-pic"
+              src="/persimmons.jpeg"
+              alt={persimmonAltTag}
+              width="379"
+              height="506"
+            />
+          </div>
+          <div className="home-right">
+            <Image
+              className="landing-pic"
+              src="/rocks.jpeg"
+              alt={rocksAltTag}
+              width="379"
+              height="506"
+            />
+          </div>
         </div>
       </Layout>
     </>

@@ -11,13 +11,11 @@ body {
 
 .home-page {
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .landing-pic {
-  margin: 50px;
   border: 1px black solid;
+  margin-bottom: 16px;
 }
 
 .page-content a {
@@ -42,5 +40,16 @@ body {
     padding-top: 1.2rem;
     margin: auto;
     width: 520px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .home-page {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .landing-pic {
+      margin: 50px;
   }
 }
