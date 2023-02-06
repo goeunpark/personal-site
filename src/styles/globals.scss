@@ -27,6 +27,11 @@ body {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 380px) {
+  .landing-pic {
+    max-width: 100%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .page-content {
     padding-top: 1.2rem;
