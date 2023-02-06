@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+.about-page {
+  max-width: 520px;
+}
+
 .landing-pic {
   border: 1px black solid;
   margin-bottom: 16px;
@@ -32,7 +36,7 @@ body {
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .page-content {
     padding-top: 1.2rem;
     padding-left: 0.8em;
@@ -40,11 +44,11 @@ body {
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 700px) {
   .page-content {
     padding-top: 1.2rem;
     margin: auto;
-    width: 520px;
+    width: 696px;
   }
 }
 

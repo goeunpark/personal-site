@@ -1,5 +1,5 @@
 ---
-title: 'Lorem ipsum dolor sit amet'
+title: 'consectetur adipiscing elit'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia ipsum auctor, iaculis nunc quis, congue enim. Praesent dignissim convallis felis.'
 date: '6 February 2023'
 author: Goeun

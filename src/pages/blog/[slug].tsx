@@ -17,6 +17,8 @@ export default function Post(props: any) {
   }
   return (
     <Layout>
+      <h1>{props.post.title}</h1>
+      <h3>{props.post.date}</h3>
       <div dangerouslySetInnerHTML={{ __html: props.post.content }} />
     </Layout>
   );

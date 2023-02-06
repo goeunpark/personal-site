@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 const About: NextPage = () => {
   return (
     <Layout>
-      <div className="page-content">
+      <div className="page-content about-page">
         <p>Goeun Park is a writer and computer science educator.</p>
         <p>
           Goeun has a BA in Psychology from Pomona College and DACA from the

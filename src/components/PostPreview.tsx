@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./PostPreview.module.scss";
 
 type Props = {
   title: string;
@@ -10,17 +11,14 @@ type Props = {
 
 const PostPreview = ({ title, date, excerpt, author, slug }: Props) => {
   return (
-    <div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link
-          as={`/blog/${slug}`}
-          href="/blog/[slug]"
-          className="hover:underline"
-        >
-          {title}
-        </Link>
-      </h3>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+    <div className={styles.preview}>
+      <Link as={`/blog/${slug}`} href="/blog/[slug]" className={styles.title}>
+        {title}
+      </Link>
+      <p>
+        <i>{date}</i>
+      </p>
+      <p>{excerpt}</p>
     </div>
   );
 };

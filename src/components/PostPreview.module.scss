@@ -1,0 +1,21 @@
+.preview {
+    padding: 10px;
+    border: 1px black solid;
+    max-width: 300px;
+    max-height: 300px;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+
+.title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.title:hover {
+    border-bottom: black solid 6px;
+}
