@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="home-page">
+        <div className="page-content home-page">
           <div className="home-left">
             <Image
               className="landing-pic"

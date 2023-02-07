@@ -1,10 +1,10 @@
 html,
 body {
-  background-color: #F9F6EE;
+  background-color: #f9f6ee;
   color: #222220;
   padding: 0;
   margin: 0;
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 }
@@ -15,6 +15,12 @@ body {
 
 .about-page {
   max-width: 520px;
+}
+
+.blog-page,
+.page-content {
+  margin: auto;
+  padding-top: 1.2rem;
 }
 
 .landing-pic {
@@ -31,34 +37,54 @@ body {
   box-sizing: border-box;
 }
 
+// teeny tiny phone
 @media only screen and (max-width: 380px) {
   .landing-pic {
     max-width: 100%;
   }
 }
+
+// tablet size
 @media only screen and (max-width: 700px) {
   .page-content {
     padding-top: 1.2rem;
     padding-left: 0.8em;
     padding-right: 0.8em;
   }
+
+  .blog-page {
+    padding-top: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+  }
 }
 
+// bigger than tablet
 @media only screen and (min-width: 700px) {
   .page-content {
-    padding-top: 1.2rem;
-    margin: auto;
     width: 696px;
   }
 }
 
+// roomy window
 @media only screen and (min-width: 1000px) {
   .home-page {
-      display: flex;
-      justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+
+    .landing-pic {
+      margin: 50px;
+    }
   }
 
-  .landing-pic {
-      margin: 50px;
+  .blog-page {
+    max-width: 800px;
+  }
+}
+
+// fullscreen
+@media only screen and (min-width: 1800px) {
+  .blog-page {
+    max-width: 1200px;
   }
 }

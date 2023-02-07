@@ -20,7 +20,7 @@ const Blog = ({ allPosts }: Props) => {
 
   return (
     <Layout>
-      <div className="page-content">
+      <div className="blog-page">
         <PostIndex posts={posts} />
       </div>
     </Layout>
