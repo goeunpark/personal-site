@@ -12,13 +12,13 @@ type Props = {
 const PostPreview = ({ title, date, excerpt, author, slug }: Props) => {
   return (
     <div className={styles.preview}>
-      <Link as={`/blog/${slug}`} href="/blog/[slug]" className={styles.title}>
-        {title}
+      <Link as={`/blog/${slug}`} href="/blog/[slug]">
+        <span className={styles.title}>{title}</span>
+        <p>
+          <i>{date}</i>
+        </p>
+        <p>{excerpt}</p>
       </Link>
-      <p>
-        <i>{date}</i>
-      </p>
-      <p>{excerpt}</p>
     </div>
   );
 };

@@ -16,8 +16,8 @@ type Props = {
 
 const PostIndex = ({ posts }: Props) => {
   return (
-    <section className={styles.index}>
-      <div>
+    <section>
+      <div className={styles.index}>
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
