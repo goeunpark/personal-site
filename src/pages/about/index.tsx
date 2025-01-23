@@ -6,8 +6,9 @@ const About: NextPage = () => {
     <Layout>
       <div className="page-content about-page">
         <p>
-          Goeun Park (b. Busan, Korea) is a writer from Northern Minnesota. They
-          are currently a Truman Capote Fellow at the Iowa Writers Workshop.
+          Goeun Park (b. 1994 Busan, Korea) is a writer from Northern Minnesota.
+          They are currently a Truman Capote Fellow at the Iowa Writers Workshop
+          and based in Iowa City, IA.
         </p>
         <p>
           <br></br>
