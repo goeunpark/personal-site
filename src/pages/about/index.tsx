@@ -5,9 +5,9 @@ const About: NextPage = () => {
   return (
     <Layout>
       <div className="page-content about-page">
-        <p>Goeun Park (b. Busan 1994) is a writer from Northern Minnesota.</p>
         <p>
-          They are currently a Truman Capote Fellow at the Iowa Writers' Workshop.
+          Goeun Park (b. Busan, Korea) is a writer from Northern Minnesota. They
+          are currently a Truman Capote Fellow at the Iowa Writers Workshop.
         </p>
         <p>
           <br></br>
