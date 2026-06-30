@@ -1,0 +1,24 @@
+$orange-2023: #ce9665;
+
+.index {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 3rem;
+}
+
+.colophonHeader {
+  align-self: center;
+  font-style: italic;
+  color: $orange-2023;
+  letter-spacing: 10%;
+  //   text-decoration: $orange-2023 wavy underline;
+}
+
+.textBlock {
+  align-self: center;
+  max-width: 520px;
+}
