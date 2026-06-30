@@ -59,18 +59,11 @@ body {
   }
 }
 
-// bigger than tablet
-@media only screen and (min-width: 700px) {
-  .page-content {
-    width: 696px;
-  }
-}
-
 // roomy window
 @media only screen and (min-width: 1000px) {
   .home-page {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
     .landing-pic {
       margin: 50px;
