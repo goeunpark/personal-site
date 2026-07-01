@@ -21,4 +21,18 @@ $orange-2023: #ce9665;
 .textBlock {
   align-self: center;
   max-width: 520px;
+  text-align: justify;
+}
+
+.link {
+  text-decoration: none;
+  color: $orange-2023;
+}
+
+.signature {
+  text-align: end;
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }

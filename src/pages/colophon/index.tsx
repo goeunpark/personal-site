@@ -8,45 +8,56 @@ const Colophon: NextPage = () => {
       <div className={styles.index}>
         <h1 className={styles.colophonHeader}>colophon</h1>
         <div className={styles.textBlock}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          lacinia ipsum auctor, iaculis nunc quis, congue enim. Praesent
-          dignissim convallis felis, ut euismod libero molestie eu. Nulla
-          posuere bibendum odio sit amet faucibus. Integer nisl mauris, tempor
-          quis pharetra porta, fringilla rutrum enim. Aliquam aliquam mauris et
-          aliquet lacinia. Pellentesque quis aliquam nisl. Donec in laoreet
-          nunc, at tempor enim. Fusce molestie, ex id vulputate fringilla, felis
-          nibh pretium ex, non tempus mi ante pellentesque orci. Sed at dapibus
-          nibh. Phasellus libero est, viverra eget maximus euismod, lacinia a
-          tellus. Fusce et venenatis eros. Sed pulvinar mattis mauris, sed
-          laoreet massa condimentum ac. Vestibulum cursus eros nunc, sagittis
-          bibendum turpis mollis et. Donec eu felis vitae libero varius viverra
-          faucibus ut urna. Mauris efficitur, quam ut pharetra commodo, erat
-          felis lacinia elit, aliquam feugiat dolor justo et sem. Aliquam semper
-          mauris sit amet felis luctus suscipit sit amet condimentum metus.
-          Etiam in justo vitae mi condimentum pretium. Vivamus sollicitudin,
-          mauris blandit tempus tincidunt, justo quam venenatis lectus, vel
-          dapibus diam felis malesuada tellus. Morbi at eleifend massa. Morbi
-          nec convallis felis. Quisque egestas tempor lacus sit amet rhoncus.
-          Pellentesque feugiat, augue et viverra porta, quam nunc imperdiet mi,
-          et hendrerit diam risus a enim. Vestibulum ultricies fermentum sapien,
-          sit amet convallis mi hendrerit ut. Aliquam pulvinar nibh nisi, in
-          scelerisque arcu malesuada sed. Vivamus iaculis augue quis elit
-          consequat luctus. Cras finibus dolor ligula, sed sollicitudin magna
-          vulputate vel. Fusce id aliquam elit, vitae fermentum elit. Cras
-          semper ultrices tortor id hendrerit. Praesent dictum non turpis vitae
-          mollis. Sed imperdiet laoreet tristique. Sed nec vestibulum arcu.
-          Aliquam facilisis leo orci, dignissim commodo massa porta ac.
-          Suspendisse id gravida nunc, vulputate tristique mauris. Praesent
-          volutpat sapien id diam convallis aliquam. Nulla eros ligula, feugiat
-          quis condimentum eu, facilisis auctor lacus. Vestibulum quis diam non
-          nibh rutrum vestibulum. Interdum et malesuada fames ac ante ipsum
-          primis in faucibus. Interdum et malesuada fames ac ante ipsum primis
-          in faucibus. Nunc erat justo, ultrices id turpis eu, blandit feugiat
-          erat. Duis et lectus sapien. Morbi luctus lobortis lorem ut
-          vestibulum. Aenean sit amet ex elementum, laoreet libero sit amet,
-          sagittis sem. Integer pharetra enim enim, ac ornare arcu congue a. In
-          eu viverra purus, ut accumsan tellus. Suspendisse suscipit turpis id
-          accumsan consectetur.
+          This website was first created in November, 2021. According to weather
+          records, it was overcast and drizzling that day in Seattle, a high of
+          45°F (7.2°C) and low of 39°F (3.9°C). I was likely sitting next to a
+          large window facing a barren, half-shaven maple tree. For over a year,
+          this website was mostly a blank page that said{" "}
+          <i>Under construction!</i>
+          <p></p>I worked on this website again between late January and early
+          Feburary 2023. Afterwards, I wrote: {'"'}This website is created using
+          Next.js and deployed on Vercel, which in turn is hosted by Amazon Web
+          Services (AWS). I am writing this from my computer in Seattle, WA. The
+          computer that is loading this page on your phone or laptop or desktop
+          lives in one of
+          <a
+            className={styles.link}
+            href="https://vercel.com/docs/concepts/edge-network/regions#region-list"
+          >
+            {" "}
+            these cities
+          </a>
+          . This entire website was overkill and I wouldn't do this again.{
+            '"'
+          }{" "}
+          It's true, I don't know why I made this with Next.js! This doesn't
+          need server side rendering! Astro might have been a nice alternative.
+          Or any other static site generator, really.
+          <p />
+          For the next three and a half years, I rearranged some words in my
+          bio. On June 2026, I added this colophon while sitting next to friends
+          in an air conditioned cafe. Outside, it was about 90°F (32.2°C) and
+          very sunny and humid. I used iTerminal and VS Code. It took me hours
+          to figure out what anything was! So tempting to trash this{" "}
+          <a
+            className={styles.link}
+            href="https://github.com/goeunpark/personal-site"
+          >
+            repository
+          </a>{" "}
+          and just do everything in HTML and CSS like I did twenty years
+          ago...but I also like knowing that at one point, I sort of knew what I
+          was doing and wrote/copy-pasted everything by hand. I would like to
+          continue building a website this way: slowly, laboriously, cheerfully.
+          🍊
+          <p />
+          <div className={styles.signature}>
+            Goeun <p />
+            <i>
+              Iowa City, Iowa <p />
+              30 June 2026
+            </i>
+          </div>
         </div>
       </div>
     </Layout>
