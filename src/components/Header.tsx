@@ -20,14 +20,14 @@ export default function Header() {
             about
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             href="/blog"
             className={page.includes("blog") ? styles.page : styles.a}
           >
             blog
           </Link>
-        </li>
+        </li> */}
       </ul>
     </header>
   );

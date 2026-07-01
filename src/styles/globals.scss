@@ -1,3 +1,5 @@
+$orange-2023: #ce9665;
+
 html,
 body {
   background-color: #f9f6ee;
@@ -15,12 +17,23 @@ body {
 
 .about-page {
   max-width: 520px;
+
+  .colophon {
+    text-align: end;
+    a {
+      color: $orange-2023;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .blog-page,
 .page-content {
   margin: auto;
-  padding-top: 1.2rem;
+  padding-top: 3rem;
 }
 
 .landing-pic {
