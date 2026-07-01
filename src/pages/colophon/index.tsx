@@ -27,12 +27,10 @@ const Colophon: NextPage = () => {
             {" "}
             these cities
           </a>
-          . This entire website was overkill and I wouldn't do this again.{
-            '"'
-          }{" "}
-          It's true, I don't know why I made this with Next.js! This doesn't
-          need server side rendering! Astro might have been a nice alternative.
-          Or any other static site generator, really.
+          . This entire website was overkill and I wouldn{"'"}t do this again.
+          {'"'} It{"'"}s true, I don{"'"}t know why I made this with Next.js!
+          This doesn't need server side rendering! Astro might have been a nice
+          alternative. Or any other static site generator, really.
           <p />
           For the next three and a half years, I rearranged some words in my
           bio. On June 2026, I added this colophon while sitting next to friends
