@@ -7,7 +7,7 @@ const About: NextPage = () => {
     <Layout>
       <div className="page-content about-page">
         <p>
-          Goeun Park (b. 1994 Busan) is a writer from Minnesota. They are a
+          Goeun Park (b. 1994, Busan) is a writer from Minnesota. They are a
           graduate of Pomona College and the Iowa Writers{"'"} Workshop.
         </p>
         <p>
